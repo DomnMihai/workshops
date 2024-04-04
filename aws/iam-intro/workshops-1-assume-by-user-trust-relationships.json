@@ -1,0 +1,16 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+      {
+          "Effect": "Allow",
+          "Principal": {
+              "AWS": [
+                  "arn:aws:iam::448740566997:root",
+                  "arn:aws:iam::0_OTHER_ACCOUNT_9:user/admin-alpha-console"
+              ]
+          },
+          "Action": "sts:AssumeRole",
+          "Condition": {}
+      }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "AllowsToGetRepositories",
+			"Effect": "Allow",
+			"Action": "codecommit:GetRepository",
+			"Resource": [
+				"arn:aws:codecommit:eu-central-1:448740566997:king-repository",
+				"arn:aws:codecommit:eu-west-1:448740566997:king-repository"
+			]
+		},
+		{
+			"Effect": "Allow",
+			"Action": "codecommit:ListRepositories",
+			"Resource": "*"
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Deny",
+      "Action": "codecommit:GetRepository",
+      "Resource": "arn:aws:codecommit:eu-west-1:448740566997:king-repository"
+    }
+  ]
+}
