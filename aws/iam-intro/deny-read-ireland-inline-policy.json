@@ -4,7 +4,7 @@
     {
       "Effect": "Deny",
       "Action": "codecommit:GetRepository",
-      "Resource": "arn:aws:codecommit:eu-west-1:448740566997:king-repository"
+      "Resource": "arn:aws:codecommit:eu-west-1:458640661923:king-repository"
     }
   ]
 }

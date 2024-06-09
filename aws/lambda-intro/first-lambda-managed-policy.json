@@ -1,0 +1,17 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "logs:CreateLogGroup",
+        "logs:CreateLogStream",
+        "logs:PutLogEvents"
+      ],
+      "Resource": [
+        "arn:aws:logs:eu-central-1:458640661923:log-group:/aws/lambda/workshops-1-first-lambda",
+        "arn:aws:logs:eu-central-1:458640661923:log-group:/aws/lambda/workshops-1-first-lambda:*"
+      ]
+    }
+  ]
+}
