@@ -1,0 +1,11 @@
+[Unit]
+Description=Run java web server for jenkins workshops
+
+[Service]
+WorkingDirectory=/home/web-app/web-server/run/
+ExecStart=java -jar web-server.jar
+Restart=always
+User=web-app
+
+[Install]
+WantedBy=multi-user.target
